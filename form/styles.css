@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(15, 8, 8, 0.5), rgba(66, 0, 0, 0.5)), url(https://th.bing.com/th/id/OIP.0-vxY1eWV7UBILxmraxQkQAAAA?cb=iwc1&rs=1&pid=ImgDetMain);
+    }
+
+h1{
+    text-align: center;
+    color: rgb(252, 251, 214);
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    color: rgb(252, 251, 214);
+    margin:10px auto;
+    width: 80%;
+
+}
+
+.aligner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 05px;
+    padding: 10px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-group{
+    margin: 25px 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    color: gray; 
+}
+
+button[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+label{
+    font-size: 20px;
+    padding: 08px;
+    display: inline-block;
+}
